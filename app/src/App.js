@@ -9,11 +9,13 @@ import Problem7 from "./componets/Problem7";
 import Problem8 from "./componets/Problem8";
 import Problem9 from "./componets/Problem9";
 import Skills from "./componets/Problem10";
-
+import Problem11 from "./componets/Problem11";
+import Problem12 from "./componets/Problem12";
+import Problem13 from "./componets/Problem13";
 function App() {
   return (
    <div className="">
-        <Skills/>
+        <Problem13/>
    </div>
   );
 }
