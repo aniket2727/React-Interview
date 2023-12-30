@@ -12,7 +12,7 @@ const Problem13 = () => {
     var max=0
 
 
-    if (!prices || prices.length === 1) {
+    if (!data || data.length === 1) {
         return 0;
     }
     for (var i=0;i<len;i++){

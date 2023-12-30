@@ -12,10 +12,15 @@ import Skills from "./componets/Problem10";
 import Problem11 from "./componets/Problem11";
 import Problem12 from "./componets/Problem12";
 import Problem13 from "./componets/Problem13";
+import Problem14 from "./componets/Problem14";
+import Problem15 from "./componets/Problem15";
+import Problem16 from "./componets/Problem16";
+import Problem17 from "./componets/Problem17";
+
 function App() {
   return (
    <div className="">
-        <Problem13/>
+        <Problem15/>
    </div>
   );
 }
