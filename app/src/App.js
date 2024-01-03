@@ -17,10 +17,11 @@ import Problem15 from "./componets/Problem15";
 import Problem16 from "./componets/Problem16";
 import Problem17 from "./componets/Problem17";
 import Problem18 from "./componets/Problem18";
+import Crudopertations from "./componets/crudopertations";
 function App() {
   return (
    <div className="">
-        <Problem18/>
+        <Crudopertations/>
    </div>
   );
 }

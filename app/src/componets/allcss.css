@@ -1,0 +1,16 @@
+.headers{
+   display: flex;
+   border: 1px solid red;
+}
+
+
+
+.content{
+    display: flex;
+    border: 1px solid red;
+}
+
+
+.button{
+    cursor: pointer;
+}
