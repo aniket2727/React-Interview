@@ -39,3 +39,31 @@ const Crudopertations = () => {
 };
 
 export default Crudopertations;
+
+
+
+
+
+// import { Component } from '@angular/core';
+
+// @Component({
+//   selector: 'app-crud-operations',
+//   templateUrl: './crud-operations.component.html',
+//   styleUrls: ['./crud-operations.component.css']
+// })
+// export class CrudOperationsComponent {
+//   data = [
+//     { name: 'aniket', age: 10 },
+//     { name: 'om', age: 10 },
+//     { name: 'sakshi', age: 10 },
+//     { name: 'suraj', age: 10 }
+//   ];
+
+//   deleteData(name: string): void {
+//     this.data = this.data.filter(item => item.name !== name);
+//   }
+
+//   showData(): void {
+//     console.log(this.data);
+//   }
+// }
