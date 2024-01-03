@@ -16,11 +16,11 @@ import Problem14 from "./componets/Problem14";
 import Problem15 from "./componets/Problem15";
 import Problem16 from "./componets/Problem16";
 import Problem17 from "./componets/Problem17";
-
+import Problem18 from "./componets/Problem18";
 function App() {
   return (
    <div className="">
-        <Problem15/>
+        <Problem18/>
    </div>
   );
 }
