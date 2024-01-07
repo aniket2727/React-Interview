@@ -19,10 +19,12 @@ import Problem17 from "./componets/Problem17";
 import Problem18 from "./componets/Problem18";
 import ParentComponent from "./componets/StateLift";
 import Crudopertations from "./componets/crudopertations";
+import Supporter from "./componets/purecomponets/Supporter";
+import Page1 from "./componets/slider/Page1";
 function App() {
   return (
    <div className="">
-        <ParentComponent/>
+      <Page1/>
    </div>
   );
 }
