@@ -14,3 +14,28 @@
 .button{
     cursor: pointer;
 }
+
+
+
+.block {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  

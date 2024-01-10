@@ -22,10 +22,11 @@ import Crudopertations from "./componets/crudopertations";
 import Supporter from "./componets/purecomponets/Supporter";
 import Page1 from "./componets/slider/Page1";
 import Mainapp from "./componets/folderstructure/Mainapp";
+import Mainbox from "./componets/boxcolorchange/Mainbocx";
 function App() {
   return (
    <div className="">
-      <Mainapp/>
+      <Mainbox/>
    </div>
   );
 }
