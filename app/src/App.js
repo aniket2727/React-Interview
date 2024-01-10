@@ -23,10 +23,14 @@ import Supporter from "./componets/purecomponets/Supporter";
 import Page1 from "./componets/slider/Page1";
 import Mainapp from "./componets/folderstructure/Mainapp";
 import Mainbox from "./componets/boxcolorchange/Mainbocx";
+import Handleprogress from "./componets/folderstructure/progressbar/Mainprogress";
+import Theme from "./componets/darkandlightmode/Theme";
+import MainLoader from "./componets/Loader/MainLoader";
+import changebuttoncolor from "./componets/changebottoncolor/changebuttoncolor";
 function App() {
   return (
    <div className="">
-      <Mainbox/>
+      <MainLoader/>
    </div>
   );
 }
