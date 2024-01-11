@@ -27,10 +27,13 @@ import Handleprogress from "./componets/folderstructure/progressbar/Mainprogress
 import Theme from "./componets/darkandlightmode/Theme";
 import MainLoader from "./componets/Loader/MainLoader";
 import changebuttoncolor from "./componets/changebottoncolor/changebuttoncolor";
+import PureFunctionComponent from "./componets/Purefunctions";
+import Stateless from "./Statelessmain";
 function App() {
   return (
    <div className="">
       <MainLoader/>
+      <PureFunctionComponent/>
    </div>
   );
 }
