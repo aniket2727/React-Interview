@@ -29,11 +29,13 @@ import MainLoader from "./componets/Loader/MainLoader";
 import changebuttoncolor from "./componets/changebottoncolor/changebuttoncolor";
 import PureFunctionComponent from "./componets/Purefunctions";
 import Stateless from "./Statelessmain";
+import Statemain from "./componets/statebehaviour/Statemai";
+import Statebehaiviour2 from "./componets/statebehaviour/Statebehaiviour2";
 function App() {
   return (
    <div className="">
-      <MainLoader/>
-      <PureFunctionComponent/>
+     <Statemain/>
+     <Statebehaiviour2/>
    </div>
   );
 }
