@@ -36,10 +36,11 @@ import Controlled from "./componets/controlledanduncontrolled/Controlled";
 import Uncontoller from "./componets/controlledanduncontrolled/Uncontoller";
 import Useref1 from "./componets/useref/Useref1";
 import Mycustomehooks from "./componets/Customehooks/Mycustomehooks";
+import Convertsdata from "./componets/convertsdataTypes/Convertsdata";
 function App() {
   return (
    <div className="">
-       <Mycustomehooks/>
+       <Convertsdata/>
    </div>
   );
 }
