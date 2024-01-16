@@ -31,11 +31,15 @@ import PureFunctionComponent from "./componets/Purefunctions";
 import Stateless from "./Statelessmain";
 import Statemain from "./componets/statebehaviour/Statemai";
 import Statebehaiviour2 from "./componets/statebehaviour/Statebehaiviour2";
+import Shallowanddeep from "./componets/Shallowanddeep/Shallowanddeep";
+import Controlled from "./componets/controlledanduncontrolled/Controlled";
+import Uncontoller from "./componets/controlledanduncontrolled/Uncontoller";
+import Useref1 from "./componets/useref/Useref1";
+import Mycustomehooks from "./componets/Customehooks/Mycustomehooks";
 function App() {
   return (
    <div className="">
-     <Statemain/>
-     <Statebehaiviour2/>
+       <Mycustomehooks/>
    </div>
   );
 }
