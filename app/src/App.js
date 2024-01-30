@@ -42,10 +42,11 @@ import Poponusestate from "./componets/Poponusestate";
 import Proble23 from "./componets/Proble23";
 import Resolveandreject from "./componets/Resolveandreject";
 import Problem24 from "./Problem24";
+import FormInReacts from "./componets/FormInReacts";
 function App() {
   return (
    <div className="">
-       <Problem24/>
+       <FormInReacts/>
    </div>
   );
 }
