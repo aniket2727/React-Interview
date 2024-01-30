@@ -1,0 +1,17 @@
+
+
+
+.input-container {
+    position: relative;
+  }
+  
+  .selected-book {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff; /* Set the background color to match the input */
+    padding: 8px; /* Add padding for better appearance */
+    margin: 2px; /* Add margin for spacing */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }
+  

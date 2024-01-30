@@ -39,10 +39,13 @@ import Mycustomehooks from "./componets/Customehooks/Mycustomehooks";
 import Convertsdata from "./componets/convertsdataTypes/Convertsdata";
 import Problem20pushinusestate from "./componets/Problem20pushinusestate";
 import Poponusestate from "./componets/Poponusestate";
+import Proble23 from "./componets/Proble23";
+import Resolveandreject from "./componets/Resolveandreject";
+import Problem24 from "./Problem24";
 function App() {
   return (
    <div className="">
-       <Poponusestate/>
+       <Problem24/>
    </div>
   );
 }
