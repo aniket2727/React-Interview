@@ -43,10 +43,11 @@ import Proble23 from "./componets/Proble23";
 import Resolveandreject from "./componets/Resolveandreject";
 import Problem24 from "./Problem24";
 import FormInReacts from "./componets/FormInReacts";
+import Swappingfrombox from "./componets/Swappingfrombox";
 function App() {
   return (
    <div className="">
-       <FormInReacts/>
+       <Swappingfrombox/>
    </div>
   );
 }
