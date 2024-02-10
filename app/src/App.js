@@ -44,10 +44,11 @@ import Resolveandreject from "./componets/Resolveandreject";
 import Problem24 from "./Problem24";
 import FormInReacts from "./componets/FormInReacts";
 import Swappingfrombox from "./componets/Swappingfrombox";
+import Code from "./componets/todolist/Code";
 function App() {
   return (
    <div className="">
-       <Swappingfrombox/>
+      <Code/>
    </div>
   );
 }

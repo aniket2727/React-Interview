@@ -11,14 +11,11 @@ const Swappingfrombox = () => {
 
     const handlefirst = (e) => {
         console.log(e)
-
         if (!data1.includes(e)) {
             data1.push(e);
         } else {
             data1.splice(data1.indexOf(e), 1);
         }
-        
-       
     }
 
 
