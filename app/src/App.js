@@ -45,10 +45,11 @@ import Problem24 from "./Problem24";
 import FormInReacts from "./componets/FormInReacts";
 import Swappingfrombox from "./componets/Swappingfrombox";
 import Code from "./componets/todolist/Code";
+import Deepandshallowcopy from "./Deepandshallowcopy";
 function App() {
   return (
    <div className="">
-      <Code/>
+      <Deepandshallowcopy/>
    </div>
   );
 }
