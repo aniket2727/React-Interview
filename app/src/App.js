@@ -46,10 +46,12 @@ import FormInReacts from "./componets/FormInReacts";
 import Swappingfrombox from "./componets/Swappingfrombox";
 import Code from "./componets/todolist/Code";
 import Deepandshallowcopy from "./Deepandshallowcopy";
+import Deepandshallow2 from "./Deepandshallow2";
+import UsestateTricks from "./UsestateTricks";
 function App() {
   return (
    <div className="">
-      <Deepandshallowcopy/>
+      <UsestateTricks/>
    </div>
   );
 }
