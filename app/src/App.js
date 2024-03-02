@@ -50,10 +50,11 @@ import Deepandshallow2 from "./Deepandshallow2";
 import UsestateTricks from "./UsestateTricks";
 import Operationsonobject from "./Operationsonobject";
 import Hoistingandcloser from "./componets/Hoistingandcloser";
+import Usestateproblems from "./componets/Usestateproblems";
 function App() {
   return (
    <div className="">
-     <Hoistingandcloser/>
+   <Usestateproblems/>
    </div>
   );
 }
