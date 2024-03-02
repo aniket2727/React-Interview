@@ -52,10 +52,11 @@ import Operationsonobject from "./Operationsonobject";
 import Hoistingandcloser from "./componets/Hoistingandcloser";
 import Usestateproblems from "./componets/Usestateproblems";
 import Parent from "./componets/Parenttochild.js/Parent";
+import AsysnUsestate from "./componets/AsysnUsestate";
 function App() {
   return (
    <div className="">
-    <Parent/>
+     <AsysnUsestate/>
    </div>
   );
 }
