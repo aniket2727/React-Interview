@@ -51,10 +51,11 @@ import UsestateTricks from "./UsestateTricks";
 import Operationsonobject from "./Operationsonobject";
 import Hoistingandcloser from "./componets/Hoistingandcloser";
 import Usestateproblems from "./componets/Usestateproblems";
+import Parent from "./componets/Parenttochild.js/Parent";
 function App() {
   return (
    <div className="">
-   <Usestateproblems/>
+    <Parent/>
    </div>
   );
 }
