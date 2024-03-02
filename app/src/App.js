@@ -54,10 +54,11 @@ import Usestateproblems from "./componets/Usestateproblems";
 import Parent from "./componets/Parenttochild.js/Parent";
 import AsysnUsestate from "./componets/AsysnUsestate";
 import UseCustomehooks from "./componets/UseCustomehooks";
+import Promises from "./componets/Promises";
 function App() {
   return (
    <div className="">
-      <UseCustomehooks/>
+     <Promises/>
    </div>
   );
 }
