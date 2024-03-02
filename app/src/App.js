@@ -53,10 +53,11 @@ import Hoistingandcloser from "./componets/Hoistingandcloser";
 import Usestateproblems from "./componets/Usestateproblems";
 import Parent from "./componets/Parenttochild.js/Parent";
 import AsysnUsestate from "./componets/AsysnUsestate";
+import UseCustomehooks from "./componets/UseCustomehooks";
 function App() {
   return (
    <div className="">
-     <AsysnUsestate/>
+      <UseCustomehooks/>
    </div>
   );
 }
