@@ -48,10 +48,12 @@ import Code from "./componets/todolist/Code";
 import Deepandshallowcopy from "./Deepandshallowcopy";
 import Deepandshallow2 from "./Deepandshallow2";
 import UsestateTricks from "./UsestateTricks";
+import Operationsonobject from "./Operationsonobject";
+import Hoistingandcloser from "./componets/Hoistingandcloser";
 function App() {
   return (
    <div className="">
-      <UsestateTricks/>
+     <Hoistingandcloser/>
    </div>
   );
 }
