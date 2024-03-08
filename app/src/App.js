@@ -56,10 +56,12 @@ import AsysnUsestate from "./componets/AsysnUsestate";
 import UseCustomehooks from "./componets/UseCustomehooks";
 import Promises from "./componets/Promises";
 import Problem25 from "./componets/Problem25";
+import ChangeButtoncoclors from "./ChangeButtoncoclors";
+import Changebuutonscolors2 from "./Changebuutonscolors2";
 function App() {
   return (
    <div className="">
-     <Problem25/>
+     <Changebuutonscolors2/>
    </div>
   );
 }
