@@ -4,10 +4,10 @@ const UserInterface2 = () => {
   return (
     <>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ height: '200px', width: '40%', flex: '1 1 auto', border: '1px solid red' }}>
+        <div style={{ height: '200px', width: '40%', border: '1px solid red' ,left:0,marginLeft:0}}>
          
         </div>
-        <div style={{ height: '200px', width: '30%', border: '1px solid red', position: 'fixed', right: 0, zIndex: '1000' }}>
+        <div style={{ height: '200px', width: '30%', border: '1px solid red', position: 'fixed', right: 0, zIndex: '1000',marginRight:0 }}>
          
         </div>
       </div>
