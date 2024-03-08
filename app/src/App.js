@@ -58,10 +58,12 @@ import Promises from "./componets/Promises";
 import Problem25 from "./componets/Problem25";
 import ChangeButtoncoclors from "./ChangeButtoncoclors";
 import Changebuutonscolors2 from "./Changebuutonscolors2";
+import Userinterface from "./componets/Userinterface";
+import Userinterface2 from "./Userinterface2";
 function App() {
   return (
    <div className="">
-     <Changebuutonscolors2/>
+   <Userinterface2/>
    </div>
   );
 }
