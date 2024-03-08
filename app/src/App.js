@@ -61,10 +61,11 @@ import Changebuutonscolors2 from "./Changebuutonscolors2";
 import Userinterface from "./componets/Userinterface";
 import Userinterface2 from "./Userinterface2";
 import Callback from "./Callback";
+import Mycomponets from "./Callback2";
 function App() {
   return (
    <div className="">
-     <Callback/>
+     <Mycomponets/>
    </div>
   );
 }
