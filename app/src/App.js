@@ -55,10 +55,11 @@ import Parent from "./componets/Parenttochild.js/Parent";
 import AsysnUsestate from "./componets/AsysnUsestate";
 import UseCustomehooks from "./componets/UseCustomehooks";
 import Promises from "./componets/Promises";
+import Problem25 from "./componets/Problem25";
 function App() {
   return (
    <div className="">
-     <Promises/>
+     <Problem25/>
    </div>
   );
 }
