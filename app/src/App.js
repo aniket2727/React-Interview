@@ -67,10 +67,12 @@ import FormComponentsApi from "./componets/Form/Formcomponets";
 import TrafficLight from "./componets/Traficlight";
 import FolderComponets from "./componets/FolderComponets";
 import Folder from "./componets/folderstructure/Folder";
+import FolderComponets2 from "./componets/FolderComponets2";
+import SearchandselecetOptions from "./componets/SearchandselecetOptions";
 function App() {
   return (
     <div className="">
-      <FolderComponets />
+       <SearchandselecetOptions/>
     </div>
   );
 }
