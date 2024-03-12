@@ -74,10 +74,11 @@ import Userinterface4 from "./Userinterface4";
 import Components1 from "./quizproble1/Componets1";
 import Sliderinreacts from "./componets/Sliderinreacts";
 import Avoidpagerefreshing from "./Avoidpagerefreshing";
+import SliderselectComponets from "./Slideselectors/SliderselectComponets";
 function App() {
   return (
     <div className="">
-        <Avoidpagerefreshing/>
+        <SliderselectComponets/>
     </div>
   );
 }

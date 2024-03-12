@@ -1,0 +1,27 @@
+
+
+.mainC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blockC{
+    display: flex;
+    gap: 10px;
+}
+
+
+button{
+    border: 1px solid rgb(29, 31, 29);
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(64, 189, 64);
+}
