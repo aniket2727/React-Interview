@@ -72,10 +72,11 @@ import SearchandselecetOptions from "./componets/SearchandselecetOptions";
 import Userinterface3 from "./Userinterface3";
 import Userinterface4 from "./Userinterface4";
 import Components1 from "./quizproble1/Componets1";
+import Sliderinreacts from "./componets/Sliderinreacts";
 function App() {
   return (
     <div className="">
-        <Components1/>
+        <Sliderinreacts/>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+
+.mainslider{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.images
+{
+    display: flex;
+}
+
+.images img
+{
+    height: 300px;
+    width: 200px;
+}
