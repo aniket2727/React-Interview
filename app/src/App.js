@@ -73,10 +73,11 @@ import Userinterface3 from "./Userinterface3";
 import Userinterface4 from "./Userinterface4";
 import Components1 from "./quizproble1/Componets1";
 import Sliderinreacts from "./componets/Sliderinreacts";
+import Avoidpagerefreshing from "./Avoidpagerefreshing";
 function App() {
   return (
     <div className="">
-        <Sliderinreacts/>
+        <Avoidpagerefreshing/>
     </div>
   );
 }
