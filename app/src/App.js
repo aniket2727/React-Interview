@@ -71,10 +71,11 @@ import FolderComponets2 from "./componets/FolderComponets2";
 import SearchandselecetOptions from "./componets/SearchandselecetOptions";
 import Userinterface3 from "./Userinterface3";
 import Userinterface4 from "./Userinterface4";
+import Components1 from "./quizproble1/Componets1";
 function App() {
   return (
     <div className="">
-        <Userinterface4/>
+        <Components1/>
     </div>
   );
 }
