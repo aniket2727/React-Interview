@@ -75,10 +75,14 @@ import Components1 from "./quizproble1/Componets1";
 import Sliderinreacts from "./componets/Sliderinreacts";
 import Avoidpagerefreshing from "./Avoidpagerefreshing";
 import SliderselectComponets from "./Slideselectors/SliderselectComponets";
+import Timer from "./timer/TimeComponets";
+import Usestate from "./Usestate/Usestate";
+import Timeout from "./Usestate/Usestate";
+import PracticeComponets from "./PracticeComponets";
 function App() {
   return (
     <div className="">
-        <SliderselectComponets/>
+        <PracticeComponets/>
     </div>
   );
 }
