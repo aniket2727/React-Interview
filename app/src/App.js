@@ -80,10 +80,12 @@ import Usestate from "./Usestate/Usestate";
 import Timeout from "./Usestate/Usestate";
 import PracticeComponets from "./PracticeComponets";
 import Promisescoponets from "./Promisescoponets";
+import Splicecomponets from "./Splicecomponets";
+import Objectopertions from "./Objectopertions";
 function App() {
   return (
     <div className="">
-        <Promisescoponets/>
+      <Objectopertions/>
     </div>
   );
 }
