@@ -79,10 +79,11 @@ import Timer from "./timer/TimeComponets";
 import Usestate from "./Usestate/Usestate";
 import Timeout from "./Usestate/Usestate";
 import PracticeComponets from "./PracticeComponets";
+import Promisescoponets from "./Promisescoponets";
 function App() {
   return (
     <div className="">
-        <PracticeComponets/>
+        <Promisescoponets/>
     </div>
   );
 }
