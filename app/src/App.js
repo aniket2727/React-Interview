@@ -92,10 +92,11 @@ import Userefnew from "./Usestate/Useref";
 import Mycomponetswithlogging from "./HocComponetss";
 import AuthenticatedComponent from "./Hoc2";
 import Childhook from "./customhook/Childcustomhoook";
+import Childt from "./ParentChild/Childt";
 function App() {
   return (
     <div className="">
-        <Childhook/>
+        <Childt/>
     </div>
   );
 }
