@@ -1,31 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Objectopertions = () => {
-    const data={
-        name:"aniket kadam",
-        age:"2000",
-        status:"relationship",
-        job:"software developer"
-    }
-
-    // Get keys and values from the data object
-    const keys_values = Object.keys(data);
-    const values = Object.values(data);
+    // Define state to hold the data object
+    const [data, setData] = useState({
+        name: "aniket kadam",
+        age: "2000",
+        status: "relationship",
+        job: "software developer"
+    });
 
     useEffect(() => {
-        // Log keys and values before deletion
-        console.log(keys_values); // Output: ["name", "age", "status", "job"]
-        console.log(values); // Output: ["aniket kadam", "2000", "relationship", "software developer"]
-
         // Delete the 'age' property from the data object
         delete data.age;
+      
+        // Update state with the modified data object
+        setData({ ...data });
 
         // Log keys and values after deletion
-        console.log("delete effect", keys_values); // Output: ["name", "age", "status", "job"]
-        console.log("delete effect", values); // Output: ["aniket kadam", "2000", "relationship", "software developer"]
-        // As you can see, keys_values and values arrays remain the same after deletion
+        console.log("delete effect", Object.keys(data)); // Output: ["name", "status", "job"]
+        console.log("delete effect", Object.values(data)); // Output: ["aniket kadam", "relationship", "software developer"]
 
-    }, []);
+    }, [data]); // Make sure to include data in the dependency array to avoid infinite loop
 
     // Iterate over the properties of the data object
     for (const item in data) {

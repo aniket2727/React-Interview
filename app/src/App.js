@@ -82,10 +82,13 @@ import PracticeComponets from "./PracticeComponets";
 import Promisescoponets from "./Promisescoponets";
 import Splicecomponets from "./Splicecomponets";
 import Objectopertions from "./Objectopertions";
+import Useref from "./Useref";
+import ChildParentcompoents from "./ChildParentcompoents";
+import Reacthooks from "./ReactHooks/Reacthooks";
 function App() {
   return (
     <div className="">
-      <Objectopertions/>
+      <Reacthooks/>
     </div>
   );
 }
