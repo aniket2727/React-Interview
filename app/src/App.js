@@ -93,10 +93,11 @@ import Mycomponetswithlogging from "./HocComponetss";
 import AuthenticatedComponent from "./Hoc2";
 import Childhook from "./customhook/Childcustomhoook";
 import Childt from "./ParentChild/Childt";
+import ParentH from "./ParentChild/ParentH";
 function App() {
   return (
     <div className="">
-        <Childt/>
+        <ParentH/>
     </div>
   );
 }
