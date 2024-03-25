@@ -89,10 +89,11 @@ import Usecallback from "./ReactHooks/Usecallback";
 import Childcomponets from "./ReactHooks/Childcomponets";
 import Usecallback2 from "./ReactHooks/Usecallback2";
 import Userefnew from "./Usestate/Useref";
+import Mycomponetswithlogging from "./HocComponetss";
 function App() {
   return (
     <div className="">
-      <Userefnew/>
+      <Mycomponetswithlogging/>
     </div>
   );
 }
