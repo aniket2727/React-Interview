@@ -90,10 +90,11 @@ import Childcomponets from "./ReactHooks/Childcomponets";
 import Usecallback2 from "./ReactHooks/Usecallback2";
 import Userefnew from "./Usestate/Useref";
 import Mycomponetswithlogging from "./HocComponetss";
+import AuthenticatedComponent from "./Hoc2";
 function App() {
   return (
     <div className="">
-      <Mycomponetswithlogging/>
+      <AuthenticatedComponent/>
     </div>
   );
 }
