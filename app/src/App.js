@@ -91,10 +91,11 @@ import Usecallback2 from "./ReactHooks/Usecallback2";
 import Userefnew from "./Usestate/Useref";
 import Mycomponetswithlogging from "./HocComponetss";
 import AuthenticatedComponent from "./Hoc2";
+import Childhook from "./customhook/Childcustomhoook";
 function App() {
   return (
     <div className="">
-      <AuthenticatedComponent/>
+        <Childhook/>
     </div>
   );
 }

@@ -11,22 +11,20 @@ const withAuthentication = (WrappedComponent) => {
         }
 
         componentDidMount() {
-            // Simulate authentication logic (e.g., checking if user is logged in)
-            const isAuthenticated = this.checkAuthentication(); // Call a function to check authentication
+          
+            const isAuthenticated = this.checkAuthentication(); 
             this.setState({ isAuthenticated });
         }
 
         // Function to check authentication (example)
         checkAuthentication() {
-            // Simulate checking if the user is authenticated
-            // For demonstration purposes, let's assume the user is authenticated if isLoggedIn is true
+         
             const isLoggedIn = false; // or false depending on your logic
             return isLoggedIn;
         }
 
         render() {
-            // If user is authenticated, render the WrappedComponent with its original props
-            // Otherwise, render a message indicating the user needs to log in
+           
             return this.state.isAuthenticated ? <WrappedComponent {...this.props} /> : <p>Please log in to view this content.</p>;
         }
     };
