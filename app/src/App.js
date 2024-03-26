@@ -94,10 +94,11 @@ import AuthenticatedComponent from "./Hoc2";
 import Childhook from "./customhook/Childcustomhoook";
 import Childt from "./ParentChild/Childt";
 import ParentH from "./ParentChild/ParentH";
+import YourApp from "./Steper/Mainstepper";
 function App() {
   return (
     <div className="">
-        <ParentH/>
+      <YourApp/>
     </div>
   );
 }
