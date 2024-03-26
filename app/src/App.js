@@ -95,10 +95,11 @@ import Childhook from "./customhook/Childcustomhoook";
 import Childt from "./ParentChild/Childt";
 import ParentH from "./ParentChild/ParentH";
 import YourApp from "./Steper/Mainstepper";
+import FolderStructure from "./Folderstucture/Mint";
 function App() {
   return (
     <div className="">
-      <YourApp/>
+      <FolderStructure/>
     </div>
   );
 }
