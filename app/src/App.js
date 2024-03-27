@@ -97,10 +97,11 @@ import ParentH from "./ParentChild/ParentH";
 import YourApp from "./Steper/Mainstepper";
 import FolderStructure from "./Folderstucture/Mint";
 import Darkmode from "./blackwhite/Darkmode";
+import Reverseblock from "./Reverseblock/Reverseblock";
 function App() {
   return (
     <div className="">
-      <Darkmode/>
+      <Reverseblock/>
     </div>
   );
 }
