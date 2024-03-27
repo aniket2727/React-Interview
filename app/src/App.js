@@ -96,10 +96,11 @@ import Childt from "./ParentChild/Childt";
 import ParentH from "./ParentChild/ParentH";
 import YourApp from "./Steper/Mainstepper";
 import FolderStructure from "./Folderstucture/Mint";
+import Darkmode from "./blackwhite/Darkmode";
 function App() {
   return (
     <div className="">
-      <FolderStructure/>
+      <Darkmode/>
     </div>
   );
 }
