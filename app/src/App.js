@@ -99,26 +99,17 @@ import FolderStructure from "./Folderstucture/Mint";
 import Darkmode from "./blackwhite/Darkmode";
 import Reverseblock from "./Reverseblock/Reverseblock";
 import PostTimer from "./Posttimer/PostTimer";
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
-
-import Page1 from "./Portal/Page1";
-import Page2 from "./Portal/Page2";
-
-
+import Page1 from "./componets/slider/Page1";
+import DataD from "./Debouning/Page1";
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Page1 />} />
-        <Route exact path="/page2" element={<Page2 />} />
-      </Routes>
-    </Router>
+    <div className="">
+     <DataD/>
+    </div>
   );
 }
 
 export default App;
+
 
 
