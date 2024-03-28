@@ -20,7 +20,7 @@ import Problem18 from "./componets/Problem18";
 import ParentComponent from "./componets/StateLift";
 import Crudopertations from "./componets/crudopertations";
 import Supporter from "./componets/purecomponets/Supporter";
-import Page1 from "./componets/slider/Page1";
+//import Page1 from "./componets/slider/Page1";
 import Mainapp from "./componets/folderstructure/Mainapp";
 import Mainbox from "./componets/boxcolorchange/Mainbocx";
 import Handleprogress from "./componets/folderstructure/progressbar/Mainprogress";
@@ -99,15 +99,26 @@ import FolderStructure from "./Folderstucture/Mint";
 import Darkmode from "./blackwhite/Darkmode";
 import Reverseblock from "./Reverseblock/Reverseblock";
 import PostTimer from "./Posttimer/PostTimer";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
+import Page1 from "./Portal/Page1";
+import Page2 from "./Portal/Page2";
+
+
 function App() {
   return (
-    <div className="">
-     <PostTimer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Page1 />} />
+        <Route exact path="/page2" element={<Page2 />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
 
 
