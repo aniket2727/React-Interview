@@ -101,10 +101,11 @@ import Reverseblock from "./Reverseblock/Reverseblock";
 import PostTimer from "./Posttimer/PostTimer";
 import Page1 from "./componets/slider/Page1";
 import DataD from "./Debouning/Page1";
+import Usecallback1 from "./Usecall/Usecallback";
 function App() {
   return (
     <div className="">
-     <DataD/>
+     <Usecallback1/>
     </div>
   );
 }

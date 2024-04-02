@@ -1,50 +1,61 @@
+import React, { useState, useEffect } from 'react';
 
+const SearchComponent = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
 
+  useEffect(() => {
+    // Function to perform search operation
+    const search = async () => {
+      try {
+        setIsSearching(true);
+        // Simulating asynchronous API call with setTimeout
+        setTimeout(() => {
+          // Simulating search results
+          const results = [
+            "apple",
+            "banana",
+            "orange",
+            "pineapple",
+            "grape",
+            "kiwi"
+          ].filter(item =>
+            item.toLowerCase().includes(searchTerm.toLowerCase())
+          );
+          setSearchResults(results);
+          setIsSearching(false);
+        }, 500); // Debounce time in milliseconds
+      } catch (error) {
+        console.error("Error fetching search results: ", error);
+        setIsSearching(false);
+      }
+    };
 
+    // Call search function when searchTerm changes
+    if (searchTerm !== '') {
+      search();
+    } else {
+      setSearchResults([]);
+    }
+  }, [searchTerm]);
 
-import React, { useEffect } from 'react'
-import { useState } from 'react'
-const DataD = () => {
-    const [searchdata, setsearchdata] = useState([])
-    const [issearching,setissearching]=useState([])
-    const [selected,setselected]=useState([])
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+      {isSearching && <p>Loading...</p>}
+      <ul>
+        {searchResults.map((result, index) => (
+          <li key={index}>{result}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
-    const [alldata, setalldata] = useState([
-        { name: "aniket" },
-        { name: "om" },
-        { name: "pratik" },
-        { name: "suraj" },
-        { name: "vijay" },
-        { name: "aditya" }])
-
-        useEffect(()=>{
-
-            const asysnsearch=async()=>{
-
-               try{
-                setTimeout(()=>{
-                    const result= alldata.filter(item=>
-                         item.toLowerCase().includes(searchdata.toLowerCase())
-                     )
-                     setsearchdata(result);
-                     setissearching(false);
-                 },500)
-               }catch(error){
-                setissearching(false)
-                console.log(error)
-
-               }
-
-            }
-
-
-        },[searchdata])
-    return (
-        <div>
-            <h1>This is debounging practice</h1>
-            <input placeholder='enter name' value={searchdata} onChange={(e) => setsearchdata(e.target.value)} />
-        </div>
-    )
-}
-
-export default DataD;
+export default SearchComponent;
