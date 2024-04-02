@@ -103,10 +103,11 @@ import Page1 from "./componets/slider/Page1";
 import DataD from "./Debouning/Page1";
 import Usecallback1 from "./Usecall/Usecallback";
 import MyComponentWithLogging1 from "./Hoc/Firstcompoents";
+import Caller from "./Custom1/Caller";
 function App() {
   return (
     <div className="">
-     <MyComponentWithLogging1/>
+     <Caller/>
     </div>
   );
 }
