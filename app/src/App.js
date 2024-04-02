@@ -102,10 +102,11 @@ import PostTimer from "./Posttimer/PostTimer";
 import Page1 from "./componets/slider/Page1";
 import DataD from "./Debouning/Page1";
 import Usecallback1 from "./Usecall/Usecallback";
+import MyComponentWithLogging1 from "./Hoc/Firstcompoents";
 function App() {
   return (
     <div className="">
-     <Usecallback1/>
+     <MyComponentWithLogging1/>
     </div>
   );
 }
