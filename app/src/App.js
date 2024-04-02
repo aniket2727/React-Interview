@@ -105,10 +105,11 @@ import Usecallback1 from "./Usecall/Usecallback";
 import MyComponentWithLogging1 from "./Hoc/Firstcompoents";
 import Caller from "./Custom1/Caller";
 import Parentcontext from "./Contextapis/Parentcontext";
+import ExampleComponent from "./Usereducers/Usereducers";
 function App() {
   return (
     <div className="">
-     <Parentcontext/>
+     <ExampleComponent/>
     </div>
   );
 }
