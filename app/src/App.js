@@ -104,10 +104,11 @@ import DataD from "./Debouning/Page1";
 import Usecallback1 from "./Usecall/Usecallback";
 import MyComponentWithLogging1 from "./Hoc/Firstcompoents";
 import Caller from "./Custom1/Caller";
+import Parentcontext from "./Contextapis/Parentcontext";
 function App() {
   return (
     <div className="">
-     <Caller/>
+     <Parentcontext/>
     </div>
   );
 }
