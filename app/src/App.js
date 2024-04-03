@@ -107,10 +107,11 @@ import Caller from "./Custom1/Caller";
 import Parentcontext from "./Contextapis/Parentcontext";
 import ExampleComponent from "./Usereducers/Usereducers";
 import A1 from './A1'
+import A2 from "./A2";
 function App() {
   return (
     <div className="">
-     <A1/>
+     <A2/>
     </div>
   );
 }
