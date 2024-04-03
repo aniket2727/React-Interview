@@ -7,7 +7,7 @@ import React, { useMemo, useState } from 'react'
 
 
 
-const Handleusememo=()=>{
+const Handleusememo=({Handleusememo})=>{
 
 
     const [count,setcount]=useState(0)

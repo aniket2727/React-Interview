@@ -114,10 +114,11 @@ import A5 from './A5'
 import A6 from './A6';
 import A7 from "./A7";
 import Handleusememo from "./A8";
+import A9 from "./A9";
 function App() {
   return (
     <div className="">
-     <Handleusememo/>
+     <A9/>
     </div>
   );
 }
