@@ -116,10 +116,11 @@ import A7 from "./A7";
 import Handleusememo from "./A8";
 import A9 from "./A9";
 import Handleref from "./A10";
+import { Handledebigging } from "./A11";
 function App() {
   return (
     <div className="">
-     <Handleref/>
+     <Handledebigging/>
     </div>
   );
 }
