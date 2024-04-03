@@ -6,8 +6,6 @@
 
 
 import React from 'react'
-
-
 const A3=()=>{
 
     function parentfunctions(){
@@ -21,7 +19,7 @@ const A3=()=>{
     const cl=parentfunctions();
     console.log(cl)
 
-    
+
     return(
         <div>
           <h1>this is closure problems</h1>

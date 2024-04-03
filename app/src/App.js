@@ -109,10 +109,11 @@ import ExampleComponent from "./Usereducers/Usereducers";
 import A1 from './A1'
 import A2 from "./A2";
 import A3 from './A3'
+import A4 from './A4'
 function App() {
   return (
     <div className="">
-     <A3/>
+     <A4/>
     </div>
   );
 }
