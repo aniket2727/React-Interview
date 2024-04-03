@@ -108,10 +108,11 @@ import Parentcontext from "./Contextapis/Parentcontext";
 import ExampleComponent from "./Usereducers/Usereducers";
 import A1 from './A1'
 import A2 from "./A2";
+import A3 from './A3'
 function App() {
   return (
     <div className="">
-     <A2/>
+     <A3/>
     </div>
   );
 }
