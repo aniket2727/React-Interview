@@ -106,10 +106,11 @@ import MyComponentWithLogging1 from "./Hoc/Firstcompoents";
 import Caller from "./Custom1/Caller";
 import Parentcontext from "./Contextapis/Parentcontext";
 import ExampleComponent from "./Usereducers/Usereducers";
+import A1 from './A1'
 function App() {
   return (
     <div className="">
-     <ExampleComponent/>
+     <A1/>
     </div>
   );
 }
