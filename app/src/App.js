@@ -111,10 +111,11 @@ import A2 from "./A2";
 import A3 from './A3'
 import A4 from './A4'
 import A5 from './A5'
+import A6 from './A6';
 function App() {
   return (
     <div className="">
-     <A5/>
+     <A6/>
     </div>
   );
 }
