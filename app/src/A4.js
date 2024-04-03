@@ -4,11 +4,7 @@
 
 import React from 'react'
 import { json } from 'react-router-dom'
-
-
-
 const A4=()=>{
-
     const originalclone=
     {
         name:"aniket",
