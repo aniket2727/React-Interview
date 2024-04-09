@@ -123,10 +123,11 @@ import AppFunction from "./A16";
 import Handleobject from "./A19";
 import Handlea20 from "./A20";
 import HandlePrototype from "./A21";
+import HandlePromises from "./A22";
 function App() {
   return (
     <div className="">
-     <HandlePrototype/>
+     <HandlePromises/>
     </div>
   );
 }
