@@ -118,10 +118,12 @@ import A9 from "./A9";
 import Handleref from "./A10";
 import { Handledebigging } from "./A11";
 import Handleforms from "./A12";
+import Highorderfunctions from "./A16";
+import AppFunction from "./A16";
 function App() {
   return (
     <div className="">
-     <Handleforms/>
+     <AppFunction/>
     </div>
   );
 }
