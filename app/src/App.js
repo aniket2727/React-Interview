@@ -121,10 +121,12 @@ import Handleforms from "./A12";
 import Highorderfunctions from "./A16";
 import AppFunction from "./A16";
 import Handleobject from "./A19";
+import Handlea20 from "./A20";
+import HandlePrototype from "./A21";
 function App() {
   return (
     <div className="">
-     <Handleobject/>
+     <HandlePrototype/>
     </div>
   );
 }
