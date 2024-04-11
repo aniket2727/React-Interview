@@ -124,10 +124,12 @@ import Handleobject from "./A19";
 import Handlea20 from "./A20";
 import HandlePrototype from "./A21";
 import HandlePromises from "./A22";
+import Handledata1 from "./A24";
+import Excelsheet from "./A25";
 function App() {
   return (
     <div className="">
-     <HandlePromises/>
+     <Excelsheet/>
     </div>
   );
 }
