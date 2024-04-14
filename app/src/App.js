@@ -127,10 +127,15 @@ import HandlePromises from "./A22";
 import Handledata1 from "./A24";
 import Excelsheet from "./A25";
 import Pathsum from "./A26";
+import Verticaltrvalsa from "./A27";
+import Twosum from "./A28";
+import Longestsum from "./A29";
+import Islandprobelsm from "./A30";
+
 function App() {
   return (
     <div className="">
-     <Pathsum/>
+     <Islandprobelsm/>
     </div>
   );
 }
