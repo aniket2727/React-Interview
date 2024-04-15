@@ -132,10 +132,11 @@ import Twosum from "./A28";
 import Longestsum from "./A29";
 import Islandprobelsm from "./A30";
 import Anagramproblem from "./A31";
+import Robberproblem from "./A32";
 function App() {
   return (
     <div className="">
-     <Anagramproblem/>
+     <Robberproblem/>
     </div>
   );
 }

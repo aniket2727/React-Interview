@@ -23,11 +23,7 @@ const Anagramproblem=()=>{
             else{
                 map.set(key,[str])
             }
-
-
         }
-
-
         return Array.from(map.values())
       
 
