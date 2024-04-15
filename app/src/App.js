@@ -131,11 +131,11 @@ import Verticaltrvalsa from "./A27";
 import Twosum from "./A28";
 import Longestsum from "./A29";
 import Islandprobelsm from "./A30";
-
+import Anagramproblem from "./A31";
 function App() {
   return (
     <div className="">
-     <Islandprobelsm/>
+     <Anagramproblem/>
     </div>
   );
 }
