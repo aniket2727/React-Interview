@@ -134,10 +134,11 @@ import Islandprobelsm from "./A30";
 import Anagramproblem from "./A31";
 import Robberproblem from "./A32";
 import Joinsortedlist from "./A33";
+import Displayproblem from './A34'
 function App() {
   return (
     <div className="">
-     <Joinsortedlist/>
+     <Displayproblem/>
     </div>
   );
 }
