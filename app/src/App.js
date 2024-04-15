@@ -135,10 +135,14 @@ import Anagramproblem from "./A31";
 import Robberproblem from "./A32";
 import Joinsortedlist from "./A33";
 import Displayproblem from './A34'
+import MyContext from "./Usecontep/Contextmaker";
+import MyProvider from "./Usecontep/Provide";
 function App() {
   return (
     <div className="">
-     <Displayproblem/>
+       <MyProvider>
+         <Mycomponets/>
+       </MyProvider>
     </div>
   );
 }
