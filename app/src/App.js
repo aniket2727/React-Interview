@@ -141,10 +141,11 @@ import Besttimetobuy from "./A35";
 import A36 from "./A36";
 import A37 from "./A37";
 import Progressbar from "./Progressbar";
+import Passwordgenerator from "./Passwordgenerator";
 function App() {
   return (
     <div className="">
-     
+     <Passwordgenerator/>
     </div>
   );
 }
