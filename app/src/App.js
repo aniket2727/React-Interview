@@ -140,10 +140,11 @@ import Displayproblem from './A34'
 import Besttimetobuy from "./A35";
 import A36 from "./A36";
 import A37 from "./A37";
+import Progressbar from "./Progressbar";
 function App() {
   return (
     <div className="">
-      <A37/>
+     
     </div>
   );
 }
