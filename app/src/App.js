@@ -146,10 +146,11 @@ import Mainb from "./breadcumb/Mianb";
 import Stepper from "./Stepper";
 import Displayallchar from "./Problem35";
 import Problemrelatedtodate from "./Problemdate";
+import DoPPP from "./Problem36";
 function App() {
   return (
     <div className="">
-      <Problemrelatedtodate/>
+      <DoPPP/>
     </div>
   );
 }
