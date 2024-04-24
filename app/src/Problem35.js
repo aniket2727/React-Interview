@@ -18,15 +18,15 @@ const Displayallchar=()=>{
     // const data2={name:"aniket"}
     // console.log("comparision",data===data2)
 
-    const data=[]
-    for(let i=65;i<90;i++){
-        data.push(String.fromCharCode(i))
+    // const data=[]
+    // for(let i=65;i<90;i++){
+    //     data.push(String.fromCharCode(i))
 
-    }
+    // }
 
 
 
-    console.log(data)
+    // console.log(data)
 
        return(
         <div>

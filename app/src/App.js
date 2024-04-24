@@ -145,10 +145,11 @@ import Passwordgenerator from "./Passwordgenerator";
 import Mainb from "./breadcumb/Mianb";
 import Stepper from "./Stepper";
 import Displayallchar from "./Problem35";
+import Problemrelatedtodate from "./Problemdate";
 function App() {
   return (
     <div className="">
-      <Displayallchar/>
+      <Problemrelatedtodate/>
     </div>
   );
 }
