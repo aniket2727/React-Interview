@@ -39,6 +39,14 @@ const Smallproblem=()=>{
 
     //   com(0,"0")    // output will be the equal
 
+
+
+    const first={value:'10'}
+    const second={value:"10"}
+
+    console.log(first===second)
+    console.log(first==second)
+
     return(
         <div>
           <h1>this is the javascript problems</h1>
