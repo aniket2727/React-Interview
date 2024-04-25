@@ -27,7 +27,17 @@ const Smallproblem=()=>{
 
    // obj.ans()    // we get error regardings to the undefined because arrow functions have not its own  content  ;gives eror
 
+    //   function com(a,b){
+    //        if(a==b){    // only check the values
+    //         console.log("equal")
+    //        }
+    //        else{
+    //           console.log("not equal")
+    //        }
+    //   }
 
+
+    //   com(0,"0")    // output will be the equal
 
     return(
         <div>
