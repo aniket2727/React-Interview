@@ -147,10 +147,11 @@ import Stepper from "./Stepper";
 import Displayallchar from "./Problem35";
 import Problemrelatedtodate from "./Problemdate";
 import DoPPP from "./Problem36";
+import Smallproblem from "./Problem40";
 function App() {
   return (
     <div className="">
-      <DoPPP/>
+      <Smallproblem/>
     </div>
   );
 }
