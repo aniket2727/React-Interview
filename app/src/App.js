@@ -152,11 +152,11 @@ import Movezero from "./Problem41";
 import Reverse from "./Problem42";
 import Recursive from "./Problem43";
 import Formproblems from "./Problem44";
-
+import Parentxyz from "./Problem45";
 function App() {
   return (
     <div className="">
-      <Formproblems/>
+      <Parentxyz/>
     </div>
   );
 }
