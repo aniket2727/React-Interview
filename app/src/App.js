@@ -151,10 +151,12 @@ import Smallproblem from "./Problem40";
 import Movezero from "./Problem41";
 import Reverse from "./Problem42";
 import Recursive from "./Problem43";
+import Formproblems from "./Problem44";
+
 function App() {
   return (
     <div className="">
-      <Recursive/>
+      <Formproblems/>
     </div>
   );
 }
