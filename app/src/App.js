@@ -153,10 +153,11 @@ import Reverse from "./Problem42";
 import Recursive from "./Problem43";
 import Formproblems from "./Problem44";
 import Parentxyz from "./Problem45";
+import Animations from "./animations/Animations1";
 function App() {
   return (
     <div className="">
-      <Parentxyz/>
+      <Animations/>
     </div>
   );
 }

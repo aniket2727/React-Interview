@@ -10,7 +10,6 @@ import { useState } from "react"
 const Childdata1 = ({ gdata }) => {
 
     const handledata=()=>{
-
         gdata(10, 20)
 
     }

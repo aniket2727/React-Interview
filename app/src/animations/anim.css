@@ -1,0 +1,56 @@
+
+
+
+.loader{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-top: 2px solid blue;
+    animation: spin 1s linear infinite;
+}
+
+
+
+.main{
+    position: relative;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+
+.first{
+  
+    border: 1px solid rgb(22, 21, 21);
+    height: 80px;
+    width: 80px;
+}
+
+
+.second{
+    
+    border: 1px solid  green;
+    height: 50px;
+    width: 50px;
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    border: 1px solid red;
+    height: 40px;
+    width: 100px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
