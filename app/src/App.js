@@ -149,10 +149,11 @@ import Problemrelatedtodate from "./Problemdate";
 import DoPPP from "./Problem36";
 import Smallproblem from "./Problem40";
 import Movezero from "./Problem41";
+import Reverse from "./Problem42";
 function App() {
   return (
     <div className="">
-      <Movezero/>
+      <Reverse/>
     </div>
   );
 }
