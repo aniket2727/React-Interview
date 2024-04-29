@@ -157,10 +157,13 @@ import Animations from "./animations/Animations1";
 import Timercountdown from "./Timercoutntdown/TimerCountdown";
 import Faqcomponets from "./FaQcomponets";
 import Custommodeloverplay from "./Custommodeloverplay";
+import Undoablecounter from "./Undoablecounter";
+import SearchComponent from "./Debouning/Page1";
+import Searchoperations from "./Searchoperations";
 function App() {
   return (
     <div className="">
-      <Custommodeloverplay/>
+      <Searchoperations/>
     </div>
   );
 }

@@ -1,9 +1,5 @@
 
-
-
-
 .custom-model{
-
     position: absolute;
     position: fixed;
     margin-top: 200px;
@@ -16,3 +12,40 @@
 .custom-model.open {
     opacity: 1;
   }
+
+
+  /* ------------------------------------------------------------------- */
+
+
+  .main-z{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+
+
+  .undoRedo{
+    display: flex;
+    margin: 10px;
+  }
+
+
+  .undoRedo button{
+      margin: 10px;
+  }
+
+
+  .buttonsz{
+      display: flex;
+      margin:20px;
+  }
+
+
+  .buttonsz  button{
+    margin: 10px;
+  }
+
+
+
+  /* ------------------------------------------------------------------- */
