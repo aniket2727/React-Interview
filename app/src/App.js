@@ -156,10 +156,11 @@ import Parentxyz from "./Problem45";
 import Animations from "./animations/Animations1";
 import Timercountdown from "./Timercoutntdown/TimerCountdown";
 import Faqcomponets from "./FaQcomponets";
+import Custommodeloverplay from "./Custommodeloverplay";
 function App() {
   return (
     <div className="">
-      <Faqcomponets/>
+      <Custommodeloverplay/>
     </div>
   );
 }

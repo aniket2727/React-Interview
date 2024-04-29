@@ -1,0 +1,18 @@
+
+
+
+
+.custom-model{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 200px;
+    border: 1px solid red;
+    transition: opacity 1s ease;
+}
+
+
+.custom-model.open {
+    opacity: 1;
+  }
