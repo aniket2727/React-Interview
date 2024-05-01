@@ -161,10 +161,11 @@ import Undoablecounter from "./Undoablecounter";
 import SearchComponent from "./Debouning/Page1";
 import Searchoperations from "./Searchoperations";
 import A40 from "./A40";
+import A41 from "./A41";
 function App() {
   return (
     <div className="">
-      <A40/>
+      <A41/>
     </div>
   );
 }
