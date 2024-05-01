@@ -160,10 +160,11 @@ import Custommodeloverplay from "./Custommodeloverplay";
 import Undoablecounter from "./Undoablecounter";
 import SearchComponent from "./Debouning/Page1";
 import Searchoperations from "./Searchoperations";
+import A40 from "./A40";
 function App() {
   return (
     <div className="">
-      <Searchoperations/>
+      <A40/>
     </div>
   );
 }
