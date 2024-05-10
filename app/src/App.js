@@ -162,10 +162,12 @@ import SearchComponent from "./Debouning/Page1";
 import Searchoperations from "./Searchoperations";
 import A40 from "./A40";
 import A41 from "./A41";
+import Code1 from "./Code1";
+import Code2 from "./Code2";
 function App() {
   return (
     <div className="">
-      <A41/>
+      <Code2/>
     </div>
   );
 }
