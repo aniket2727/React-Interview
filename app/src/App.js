@@ -167,10 +167,11 @@ import Code2 from "./Code2";
 import Code3 from "./Code3";
 import Code4 from "./Code4";
 import Code5 from "./Code5";
+import Codee6 from "./Codee6";
 function App() {
   return (
     <div className="">
-      <Code5/>
+      <Codee6/>
     </div>
   );
 }
