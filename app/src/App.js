@@ -172,10 +172,11 @@ import Code7 from "./Code7";
 import Code9 from "./Code9";
 import Code10 from "./Code10";
 import Code11 from "./Code11";
+import Code12 from "./Code12";
 function App() {
   return (
     <div className="">
-      <Code11/>
+      <Code12/>
     </div>
   );
 }
