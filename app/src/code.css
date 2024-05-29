@@ -52,8 +52,33 @@ div{
 }*/
 
 
-
+/* 
 .black-and-white {
     background-color: #000;
     color: #fff; /* Set text color to white for better visibility */
-  }  
+
+
+.box{
+    color: wheat;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    background-color: black;
+    border: 3px solid green;
+    animation-name: move;
+    animation-duration: 4s;
+}
+
+
+@keyframes move{
+   from{
+    top:0;
+    left:0;
+   }
+
+   to{
+    top:0;
+    left: 1200px;
+   }
+}
