@@ -82,3 +82,16 @@ div{
     left: 1200px;
    }
 }
+
+
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition:  width , height 3s ease;
+}
+
+.element:hover{
+    height: 200px;
+    width: 200px;
+}
