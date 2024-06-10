@@ -187,12 +187,11 @@ import Code26 from "./Code26";
 import Code27 from "./Code27";
 import Codingquestions from "./Code28";
 import { ParentComponets } from "./Code29";
-import Fetchdata from "./Code30";
-import Customhookparent from "./Code31";
+import NewCustomHook from "./Code31";
 function App() {
   return (
     <div className="">
-      <Customhookparent/>
+        <NewCustomHook/>
     </div>
   );
 }
