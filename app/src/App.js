@@ -188,10 +188,11 @@ import Code27 from "./Code27";
 import Codingquestions from "./Code28";
 import { ParentComponets } from "./Code29";
 import NewCustomHook from "./Code31";
+import Postdata from "./Code32";
 function App() {
   return (
     <div className="">
-        <NewCustomHook/>
+        <Postdata/>
     </div>
   );
 }
