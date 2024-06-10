@@ -189,10 +189,11 @@ import Codingquestions from "./Code28";
 import { ParentComponets } from "./Code29";
 import NewCustomHook from "./Code31";
 import Postdata from "./Code32";
+import PatchandDeleteapis from "./Code33";
 function App() {
   return (
     <div className="">
-        <Postdata/>
+        <PatchandDeleteapis/>
     </div>
   );
 }
