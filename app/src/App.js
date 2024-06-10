@@ -185,10 +185,11 @@ import Code24 from "./Code24";
 import Code25 from "./Code25";
 import Code26 from "./Code26";
 import Code27 from "./Code27";
+import Codingquestions from "./Code28";
 function App() {
   return (
     <div className="">
-      <Code27/>
+      <Codingquestions/>
     </div>
   );
 }
