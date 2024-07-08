@@ -191,10 +191,12 @@ import NewCustomHook from "./Code31";
 import Postdata from "./Code32";
 import PatchandDeleteapis from "./Code33";
 import Code34 from "./code34";
+import Code35 from "./Code35";
+import DeleteData from "./Code36";
 function App() {
   return (
     <div className="">
-      <Code34/>
+      <DeleteData/>
     </div>
   );
 }
