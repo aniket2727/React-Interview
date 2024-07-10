@@ -6,8 +6,7 @@
 
 
 const ReveseCompoents=()=>{
-
-
+    
     const handleReversecomponets=()=>{
         const a=[1,2,3,4,5]
         const reversedArray = a.map((item, index) => a[a.length - 1 - index]);
