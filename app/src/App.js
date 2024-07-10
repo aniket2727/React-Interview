@@ -197,10 +197,11 @@ import UpdateData from "./Code37";
 import Handlereverse from "./Code38";
 import SelectComponets from "./Code40";
 import Radioscomponets from "./Code41";
+import Palindromcomponets from "./Code42";
 function App() {
   return (
     <div className="">
-       <Radioscomponets/>
+       <Palindromcomponets/>
     </div>
   );
 }
