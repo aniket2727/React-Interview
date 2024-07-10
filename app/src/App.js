@@ -196,10 +196,11 @@ import DeleteData from "./Code36";
 import UpdateData from "./Code37";
 import Handlereverse from "./Code38";
 import SelectComponets from "./Code40";
+import Radioscomponets from "./Code41";
 function App() {
   return (
     <div className="">
-      <SelectComponets/>
+       <Radioscomponets/>
     </div>
   );
 }
