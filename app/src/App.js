@@ -206,6 +206,7 @@ import ConvertCapital from "./Code47";
 import VovelComponet from "./Code48";
 import EvenNumberComponets from "./Code49";
 import LargetsDiiferncecompoenst from "./Code50";
+import SwaplettersComponets from "./Code51";
 function App() {
   return (
     <div className="">
