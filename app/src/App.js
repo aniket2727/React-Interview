@@ -204,10 +204,12 @@ import ReveseCompoents from "./Code45";
 import ReverseSentence from "./Code46";
 import ConvertCapital from "./Code47";
 import VovelComponet from "./Code48";
+import EvenNumberComponets from "./Code49";
+
 function App() {
   return (
     <div className="">
-       <VovelComponet/>
+       <EvenNumberComponets/>
     </div>
   );
 }
