@@ -20,10 +20,8 @@ const ReverseSentence = () => {
       }
       return arr;
     };
-  
     const result = functionA();
     console.log("Reversed sentence:", result.join(' '));
-  
     return (
       <div>
         <h1>Sentence Reverse</h1>

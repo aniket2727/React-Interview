@@ -202,10 +202,11 @@ import LargestNumbercomponets from "./Code43";
 import LargetssentenceComponets from "./Code44";
 import ReveseCompoents from "./Code45";
 import ReverseSentence from "./Code46";
+import ConvertCapital from "./Code47";
 function App() {
   return (
     <div className="">
-       <ReverseSentence/>
+       <ConvertCapital/>
     </div>
   );
 }
