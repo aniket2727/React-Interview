@@ -199,10 +199,11 @@ import SelectComponets from "./Code40";
 import Radioscomponets from "./Code41";
 import Palindromcomponets from "./Code42";
 import LargestNumbercomponets from "./Code43";
+import LargetssentenceComponets from "./Code44";
 function App() {
   return (
     <div className="">
-       <LargestNumbercomponets/>
+       <LargetssentenceComponets/>
     </div>
   );
 }
