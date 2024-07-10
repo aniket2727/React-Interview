@@ -200,10 +200,11 @@ import Radioscomponets from "./Code41";
 import Palindromcomponets from "./Code42";
 import LargestNumbercomponets from "./Code43";
 import LargetssentenceComponets from "./Code44";
+import ReveseCompoents from "./Code45";
 function App() {
   return (
     <div className="">
-       <LargetssentenceComponets/>
+       <ReveseCompoents/>
     </div>
   );
 }
