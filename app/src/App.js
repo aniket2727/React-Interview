@@ -205,11 +205,11 @@ import ReverseSentence from "./Code46";
 import ConvertCapital from "./Code47";
 import VovelComponet from "./Code48";
 import EvenNumberComponets from "./Code49";
-
+import LargetsDiiferncecompoenst from "./Code50";
 function App() {
   return (
     <div className="">
-       <EvenNumberComponets/>
+       <LargetsDiiferncecompoenst/>
     </div>
   );
 }
