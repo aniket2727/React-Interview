@@ -203,10 +203,11 @@ import LargetssentenceComponets from "./Code44";
 import ReveseCompoents from "./Code45";
 import ReverseSentence from "./Code46";
 import ConvertCapital from "./Code47";
+import VovelComponet from "./Code48";
 function App() {
   return (
     <div className="">
-       <ConvertCapital/>
+       <VovelComponet/>
     </div>
   );
 }
