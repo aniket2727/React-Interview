@@ -194,10 +194,12 @@ import Code34 from "./code34";
 import Code35 from "./Code35";
 import DeleteData from "./Code36";
 import UpdateData from "./Code37";
+import Handlereverse from "./Code38";
+import SelectComponets from "./Code40";
 function App() {
   return (
     <div className="">
-      <UpdateData/>
+      <SelectComponets/>
     </div>
   );
 }
