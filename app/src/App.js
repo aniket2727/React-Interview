@@ -210,10 +210,11 @@ import SwaplettersComponets from "./Code51";
 import Anagramcomponets from "./Code52";
 import Sortsentencewiththewordlenght from "./Code53";
 import Generatepassword from "./Code54";
+import Removeextraspace from "./Code55";
 function App() {
   return (
     <div className="">
-       <Generatepassword/>
+       <Removeextraspace/>
     </div>
   );
 }
