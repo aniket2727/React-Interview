@@ -20,10 +20,7 @@ const Sortsentencewiththewordlenght=()=>{
 
         const sortedResult=arr.sort((i,j)=>b[i]-b[j]);
         const result=sortedResult.join(' ')
-        console.log(result)
-        
-        
-        
+        console.log(result); 
     }
 
     useEffect(()=>{

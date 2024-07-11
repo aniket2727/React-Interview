@@ -209,10 +209,11 @@ import LargetsDiiferncecompoenst from "./Code50";
 import SwaplettersComponets from "./Code51";
 import Anagramcomponets from "./Code52";
 import Sortsentencewiththewordlenght from "./Code53";
+import Generatepassword from "./Code54";
 function App() {
   return (
     <div className="">
-       <Sortsentencewiththewordlenght/>
+       <Generatepassword/>
     </div>
   );
 }
