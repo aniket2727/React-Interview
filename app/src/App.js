@@ -207,10 +207,11 @@ import VovelComponet from "./Code48";
 import EvenNumberComponets from "./Code49";
 import LargetsDiiferncecompoenst from "./Code50";
 import SwaplettersComponets from "./Code51";
+import Anagramcomponets from "./Code52";
 function App() {
   return (
     <div className="">
-       <LargetsDiiferncecompoenst/>
+       <Anagramproblem/>
     </div>
   );
 }
