@@ -212,10 +212,13 @@ import Sortsentencewiththewordlenght from "./Code53";
 import Generatepassword from "./Code54";
 import Removeextraspace from "./Code55";
 import Swaprandomlly from "./Code56";
+import Code57 from "./Code57";
+import Code58 from "./Code58";
+
 function App() {
   return (
     <div className="">
-      <Swaprandomlly/>
+      <Code58/>
     </div>
   );
 }
