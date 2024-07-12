@@ -217,10 +217,11 @@ import Code58 from "./Code58";
 import Code59 from "./Code59";
 import Code60 from "./Code60";
 import Code61 from "./Code61";
+import Code62 from "./Code62";
 function App() {
   return (
     <div className="">
-      <Code61/>
+      <Code62/>
     </div>
   );
 }
