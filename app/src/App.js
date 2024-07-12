@@ -215,10 +215,12 @@ import Swaprandomlly from "./Code56";
 import Code57 from "./Code57";
 import Code58 from "./Code58";
 import Code59 from "./Code59";
+import Code60 from "./Code60";
+
 function App() {
   return (
     <div className="">
-      <Code59/>
+      <Code60/>
     </div>
   );
 }
