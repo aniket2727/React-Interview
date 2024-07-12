@@ -214,11 +214,11 @@ import Removeextraspace from "./Code55";
 import Swaprandomlly from "./Code56";
 import Code57 from "./Code57";
 import Code58 from "./Code58";
-
+import Code59 from "./Code59";
 function App() {
   return (
     <div className="">
-      <Code58/>
+      <Code59/>
     </div>
   );
 }
