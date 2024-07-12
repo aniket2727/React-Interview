@@ -26,9 +26,13 @@ const Code62=()=>{
 
     }
     handleobject();
+    const condtion=true;
     return(
         <div>
            <h1>objets</h1>
+           {
+               condtion &&<div>{console.log('good')}</div>
+           }
         </div>
     )
 }
